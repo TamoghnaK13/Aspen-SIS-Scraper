@@ -220,7 +220,7 @@ module.exports = {
 										parsedTable.push({
 											class: className,
 											classToken: element.find('td').eq(0).children('input').attr('id'),
-											teacherName: element.find('td').eq(6).text().replaceAll('\n', ''),
+			                                                                classroom: element.find('td').eq(6).text().replaceAll('\n', ''),
 											grade: element.find('td').eq(7).text().replaceAll('\n', ''),
 										});
 									}
