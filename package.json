@@ -1,27 +1,31 @@
 {
-  "name": "aspen-sis",
-  "version": "1.0.1",
-  "description": "A tool for scraping user data off of sites using Aspen SIS",
+  "name": "aspen-sis-scraper",
+  "version": "1.0",
+  "description": "A tool for scraping data off of the Aspen SIS.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DavidAngell/Aspen-SIS.git"
+    "url": "git+https://github.com/TamoghnaK13/Aspen-SIS-Scraper.git"
   },
   "keywords": [
     "Aspen",
+    "grade",
     "AspenSIS",
     "my-follett",
-    "follett"
+    "follett",
+    "portal",
+    "scraper",
+    "SIS"
   ],
   "author": "DavidAngell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DavidAngell/Aspen-SIS/issues"
+    "url": "https://github.com/TamoghnaK13/Aspen-SIS-Scraper/issues"
   },
-  "homepage": "https://github.com/DavidAngell/Aspen-SIS#readme",
+  "homepage": "https://github.com/TamoghnaK13/Aspen-SIS-Scraper#readme",
   "dependencies": {
     "cheerio": "*",
     "request-promise": "^4.2.6"
